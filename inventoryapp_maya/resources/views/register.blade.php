@@ -8,6 +8,7 @@
 <h1>Sign Up Form</h1>
 
 <form action="/welcome" method="POST">
+    @csrf
     <label>First name:</label><br>
     <input type="text" name="first_name"><br><br>
 
